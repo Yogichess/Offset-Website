@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offset Printing Press - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="images/Logo.jpeg" alt="Company Logo" class="h-16 w-auto mr-4">
+                    <span class="text-2xl font-bold text-blue-800">Offset Printing Press</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-blue-800 font-medium hover:text-blue-600">Home</a>
+                    <a href="services.html" class="text-gray-600 font-medium hover:text-blue-600">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 font-medium hover:text-blue-600">Portfolio</a>
+                    <a href="about.html" class="text-gray-600 font-medium hover:text-blue-600">About</a>
+                    <a href="contact.html" class="text-gray-600 font-medium hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <a href="index.html" class="block py-2 text-blue-800 font-medium">Home</a>
+                <a href="services.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">Services</a>
+                <a href="portfolio.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">Portfolio</a>
+                <a href="about.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">About</a>
+                <a href="contact.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative">
+        <div class="h-[500px] w-full bg-cover bg-center" style="background-image: url('images/Banner.jpg')">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <div class="text-center px-4">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Your One-Stop Solution for Quality Printing Since 1985</h1>
+                    <p class="text-xl text-white mb-8">Delivering excellence in printing services for over four decades</p>
+                    <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Why Choose Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Fast Turnaround</h3>
+                    <p class="text-gray-600">Quick delivery without compromising on quality</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Customization</h3>
+                    <p class="text-gray-600">Tailored solutions to meet your specific requirements</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">100+ Clients</h3>
+                    <p class="text-gray-600">Trusted by businesses across India</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">40+ Years Experience</h3>
+                    <p class="text-gray-600">Decades of expertise in the printing industry</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">Our Services</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">We offer a comprehensive range of printing services to meet all your needs</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Offset.jpg" alt="Offset Printing" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Offset Printing</h3>
+                        <p class="text-gray-600 mb-4">High-quality printing for large volume requirements</p>
+                        <a href="services.html#offset" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Gravaure.jpg" alt="Gravure Printing" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Gravure Printing</h3>
+                        <p class="text-gray-600 mb-4">Premium quality for packaging and publications</p>
+                        <a href="services.html#gravure" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Flexo.jpg" alt="Flexo Printing" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Flexo Printing</h3>
+                        <p class="text-gray-600 mb-4">Versatile printing for labels and packaging</p>
+                        <a href="services.html#flexo" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Poly.jpg" alt="Poly Coating" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Poly Coating</h3>
+                        <p class="text-gray-600 mb-4">Protective coating for durability and finish</p>
+                        <a href="services.html#poly" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/UV.jpg" alt="UV Coating" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">UV Coating</h3>
+                        <p class="text-gray-600 mb-4">High-gloss finish for premium print products</p>
+                        <a href="services.html#uv" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Lamination.jpg" alt="Lamination" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Lamination</h3>
+                        <p class="text-gray-600 mb-4">Protective and aesthetic enhancement for prints</p>
+                        <a href="services.html#lamination" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 7 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Die.jpg" alt="Die Cutting" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Die Cutting</h3>
+                        <p class="text-gray-600 mb-4">Precision cutting for custom shapes and designs</p>
+                        <a href="services.html#die" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+                <!-- Service 8 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="images/Foil.jpg" alt="Hot Foil Stamping" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Hot Foil Stamping</h3>
+                        <p class="text-gray-600 mb-4">Elegant metallic accents for premium products</p>
+                        <a href="services.html#foil" class="text-blue-600 hover:text-blue-800 font-medium">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="services.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 ease-in-out">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why We're the Best Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Why We're the Best</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <div class="flex items-start mb-8">
+                        <div class="bg-blue-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-gray-800">Quality Assurance</h3>
+                            <p class="text-gray-600">We maintain rigorous quality control standards at every stage of production to ensure flawless results.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-8">
+                        <div class="bg-blue-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-cog text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-gray-800">Advanced Technology</h3>
+                            <p class="text-gray-600">Our state-of-the-art equipment and technology ensure precision, consistency, and exceptional quality.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-truck text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-gray-800">Timely Delivery</h3>
+                            <p class="text-gray-600">We understand the importance of deadlines and ensure your projects are delivered on time, every time.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="flex items-start mb-8">
+                        <div class="bg-blue-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-users text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-gray-800">Expert Team</h3>
+                            <p class="text-gray-600">Our skilled professionals bring decades of combined experience to every project, ensuring exceptional results.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-8">
+                        <div class="bg-blue-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-leaf text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-gray-800">Eco-Friendly Practices</h3>
+                            <p class="text-gray-600">We are committed to sustainable printing practices that minimize environmental impact.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="bg-blue-600 p-3 rounded-full mr-4">
+                            <i class="fas fa-handshake text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2 text-gray-800">Customer Satisfaction</h3>
+                            <p class="text-gray-600">Our client-centric approach ensures we understand your needs and exceed your expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Offset Printing Press</h3>
+                    <p class="mb-4">Your trusted partner for premium printing solutions since 1985.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> JeyaRathinam Nagar, Viswanatham, Sivakasi - 626189</p>
+                    <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> 9487594521</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> info@offsetprintingpress.com</p>
+                </div>
+                
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Subscribe to Our Newsletter</h3>
+                    <p class="mb-4">Stay updated with our latest news and offers.</p>
+                    <form id="newsletter-form" class="flex flex-col sm:flex-row">
+                        <input type="email" placeholder="Your Email" class="px-4 py-2 w-full sm:w-auto mb-2 sm:mb-0 text-gray-800 rounded-l focus:outline-none" required>
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r font-medium transition duration-300">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6 text-center text-sm">
+                <p>&copy; 2023 Offset Printing Press. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Newsletter Form Validation
+        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const email = emailInput.value.trim();
+            
+            if (email === '') {
+                alert('Please enter your email address.');
+                return;
+            }
+            
+            // Email validation regex
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // If validation passes
+            alert('Thank you for subscribing to our newsletter!');
+            emailInput.value = '';
+        });
+    </script>
+</body>
+</html>

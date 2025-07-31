@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offset Printing Press - Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="images/Logo.jpeg" alt="Company Logo" class="h-16 w-auto mr-4">
+                    <span class="text-2xl font-bold text-blue-800">Offset Printing Press</span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="text-gray-600 font-medium hover:text-blue-600">Home</a>
+                    <a href="services.html" class="text-blue-800 font-medium hover:text-blue-600">Services</a>
+                    <a href="portfolio.html" class="text-gray-600 font-medium hover:text-blue-600">Portfolio</a>
+                    <a href="about.html" class="text-gray-600 font-medium hover:text-blue-600">About</a>
+                    <a href="contact.html" class="text-gray-600 font-medium hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4">
+                <a href="index.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">Home</a>
+                <a href="services.html" class="block py-2 text-blue-800 font-medium">Services</a>
+                <a href="portfolio.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">Portfolio</a>
+                <a href="about.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">About</a>
+                <a href="contact.html" class="block py-2 text-gray-600 font-medium hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="bg-blue-700 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold text-white mb-4">Our Services</h1>
+            <p class="text-xl text-white">Comprehensive printing solutions for all your needs</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <!-- Service 1: Offset Printing -->
+            <div id="offset" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Offset Printing</h2>
+                        <p class="text-gray-600 mb-4">Offset printing is a commonly used printing technique where the inked image is transferred (or "offset") from a plate to a rubber blanket, then to the printing surface. This technique is known for its consistent high image quality and is ideal for large volume printing jobs.</p>
+                        <p class="text-gray-600 mb-4">Our state-of-the-art offset printing presses deliver exceptional quality with vibrant colors and sharp details. We use premium inks and papers to ensure your printed materials stand out.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>High-quality reproduction of images and text</li>
+                            <li>Cost-effective for medium to large print runs</li>
+                            <li>Versatile - works on various paper types and sizes</li>
+                            <li>Accurate color reproduction</li>
+                            <li>Fast production for large quantities</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Brochures and catalogs</li>
+                            <li>Magazines and books</li>
+                            <li>Packaging materials</li>
+                            <li>Stationery and business cards</li>
+                            <li>Posters and marketing materials</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/Offset.jpg" alt="Offset Printing" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2: Gravure Printing -->
+            <div id="gravure" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="images/Gravaure.jpg" alt="Gravure Printing" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Gravure Printing</h2>
+                        <p class="text-gray-600 mb-4">Gravure printing is a premium printing method where the image is engraved onto a cylinder. The cylinder is then rotated through a bath of ink, and the excess ink is scraped off, leaving ink only in the engraved cells. This technique is known for its exceptional quality and is ideal for high-volume, high-quality printing.</p>
+                        <p class="text-gray-600 mb-4">Our gravure printing service delivers superior print quality with rich, vibrant colors and fine details, making it perfect for premium packaging and publications.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>Superior image quality with fine details</li>
+                            <li>Consistent color reproduction</li>
+                            <li>Excellent for long print runs</li>
+                            <li>Works well on various substrates</li>
+                            <li>Durable prints with high resistance to fading</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>High-quality packaging</li>
+                            <li>Premium magazines and catalogs</li>
+                            <li>Specialty printing projects</li>
+                            <li>Security printing</li>
+                            <li>Wallpapers and decorative materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3: Flexo Printing -->
+            <div id="flexo" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Flexo Printing</h2>
+                        <p class="text-gray-600 mb-4">Flexographic printing (flexo) is a versatile printing process that uses flexible relief plates. It's a modern version of letterpress printing and can be used on almost any type of substrate, including plastic, metallic films, cellophane, and paper.</p>
+                        <p class="text-gray-600 mb-4">Our flexo printing service offers excellent quality for labels, packaging, and other flexible materials with quick turnaround times and cost-effective solutions.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>Versatile - works on various materials</li>
+                            <li>Fast production speeds</li>
+                            <li>Cost-effective for medium to large runs</li>
+                            <li>Good quality reproduction</li>
+                            <li>Environmentally friendly water-based inks available</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Labels and stickers</li>
+                            <li>Flexible packaging</li>
+                            <li>Corrugated boxes</li>
+                            <li>Food packaging</li>
+                            <li>Shopping bags</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/Flexo.jpg" alt="Flexo Printing" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4: Poly Coating -->
+            <div id="poly" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="images/Poly.jpg" alt="Poly Coating" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Poly Coating</h2>
+                        <p class="text-gray-600 mb-4">Poly coating is a process that applies a thin layer of polyethylene to paper or paperboard, creating a protective barrier against moisture, grease, and other elements. This coating enhances the durability and functionality of printed materials.</p>
+                        <p class="text-gray-600 mb-4">Our poly coating service provides excellent protection for your printed materials while maintaining their visual appeal and extending their lifespan.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>Moisture and grease resistance</li>
+                            <li>Enhanced durability</li>
+                            <li>Improved appearance with glossy finish</li>
+                            <li>Food-safe options available</li>
+                            <li>Extends the life of printed materials</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Food packaging</li>
+                            <li>Beverage containers</li>
+                            <li>Promotional materials</li>
+                            <li>Book covers</li>
+                            <li>Outdoor signage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5: UV Coating -->
+            <div id="uv" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">UV Coating</h2>
+                        <p class="text-gray-600 mb-4">UV coating is a high-gloss or matte coating applied to printed material and then cured instantly with ultraviolet light. This process creates a protective layer that enhances the appearance of printed materials with a vibrant, eye-catching finish.</p>
+                        <p class="text-gray-600 mb-4">Our UV coating service provides a premium finish that makes your printed materials stand out with enhanced colors and protection against wear and tear.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>High-gloss or matte finish options</li>
+                            <li>Enhanced color vibrancy</li>
+                            <li>Excellent durability and scratch resistance</li>
+                            <li>Quick drying time</li>
+                            <li>Environmentally friendly (no solvents)</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Business cards</li>
+                            <li>Brochures and catalogs</li>
+                            <li>Book covers</li>
+                            <li>Packaging</li>
+                            <li>Point-of-purchase displays</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/UV.jpg" alt="UV Coating" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6: Lamination -->
+            <div id="lamination" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="images/Lamination.jpg" alt="Lamination" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Lamination</h2>
+                        <p class="text-gray-600 mb-4">Lamination is a process of applying a thin layer of plastic film to printed materials, providing protection and enhancing their appearance. This process seals in the ink and provides a durable finish that extends the life of your printed materials.</p>
+                        <p class="text-gray-600 mb-4">Our lamination service offers both glossy and matte finishes, providing protection against moisture, handling, and wear while enhancing the visual appeal of your printed materials.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>Enhanced durability and longevity</li>
+                            <li>Protection against moisture and handling</li>
+                            <li>Available in glossy or matte finishes</li>
+                            <li>Improved appearance and feel</li>
+                            <li>Prevents ink from rubbing off</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Menus</li>
+                            <li>Business cards</li>
+                            <li>Brochures and flyers</li>
+                            <li>Book covers</li>
+                            <li>Presentation folders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 7: Die Cutting -->
+            <div id="die" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Die Cutting</h2>
+                        <p class="text-gray-600 mb-4">Die cutting is a process that uses a die to shear through paper, cardboard, and other materials to create custom shapes, holes, and designs. This technique allows for creative and unique presentations of printed materials.</p>
+                        <p class="text-gray-600 mb-4">Our die cutting service offers precision cutting for custom shapes and designs, helping your printed materials stand out with unique presentations and functional features.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>Custom shapes and designs</li>
+                            <li>Precision cutting</li>
+                            <li>Enhances visual appeal</li>
+                            <li>Adds functionality to printed materials</li>
+                            <li>Creates memorable marketing materials</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Custom packaging</li>
+                            <li>Presentation folders</li>
+                            <li>Business cards</li>
+                            <li>Promotional items</li>
+                            <li>Greeting cards and invitations</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/Die.jpg" alt="Die Cutting" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 8: Hot Foil Stamping -->
+            <div id="foil" class="mb-16 scroll-mt-24">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="images/Foil.jpg" alt="Hot Foil Stamping" class="rounded-lg shadow-lg w-full h-auto">
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Hot Foil Stamping</h2>
+                        <p class="text-gray-600 mb-4">Hot foil stamping is a printing technique that uses heat, pressure, and metallic foil to create elegant, eye-catching designs on printed materials. This process adds a premium, luxurious touch to your printed products.</p>
+                        <p class="text-gray-600 mb-4">Our hot foil stamping service adds a touch of elegance and sophistication to your printed materials with metallic accents in gold, silver, copper, and other colors.</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Benefits:</h3>
+                        <ul class="list-disc pl-5 mb-4 text-gray-600">
+                            <li>Adds a premium, luxurious appearance</li>
+                            <li>Available in various metallic colors</li>
+                            <li>Creates eye-catching visual effects</li>
+                            <li>Enhances brand perception</li>
+                            <li>Durable and long-lasting finish</li>
+                        </ul>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Applications:</h3>
+                        <ul class="list-disc pl-5 text-gray-600">
+                            <li>Business cards</li>
+                            <li>Luxury packaging</li>
+                            <li>Book covers</li>
+                            <li>Wedding invitations</li>
+                            <li>Premium marketing materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="bg-blue-50 p-8 rounded-lg text-center">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Ready to Start Your Printing Project?</h2>
+                <p class="text-gray-600 mb-6 max-w-3xl mx-auto">Contact us today to discuss your printing needs and get a customized quote for your project.</p>
+                <a href="contact.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 ease-in-out">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Offset Printing Press</h3>
+                    <p class="mb-4">Your trusted partner for premium printing solutions since 1985.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> JeyaRathinam Nagar, Viswanatham, Sivakasi - 626189</p>
+                    <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> 9487594521</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> info@offsetprintingpress.com</p>
+                </div>
+                
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Subscribe to Our Newsletter</h3>
+                    <p class="mb-4">Stay updated with our latest news and offers.</p>
+                    <form id="newsletter-form" class="flex flex-col sm:flex-row">
+                        <input type="email" placeholder="Your Email" class="px-4 py-2 w-full sm:w-auto mb-2 sm:mb-0 text-gray-800 rounded-l focus:outline-none" required>
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r font-medium transition duration-300">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6 text-center text-sm">
+                <p>&copy; 2023 Offset Printing Press. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Newsletter Form Validation
+        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const email = emailInput.value.trim();
+            
+            if (email === '') {
+                alert('Please enter your email address.');
+                return;
+            }
+            
+            // Email validation regex
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // If validation passes
+            alert('Thank you for subscribing to our newsletter!');
+            emailInput.value = '';
+        });
+    </script>
+</body>
+</html>
